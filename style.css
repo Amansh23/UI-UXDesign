@@ -1,0 +1,422 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+    /* background-image: linear-gradient(to right,royalblue,white,rgb(252, 200, 209),royalblue); */
+    background: radial-gradient(ellipse at top, rgb(171, 189, 241), transparent),
+            radial-gradient(ellipse at bottom,rgb(252, 200, 209), transparent);
+    background-image: radial-gradient();
+    padding: 10px 20px;
+}
+#main #nav{
+    width: 100%;
+    height: 10vh;
+   /* background-color: black; */
+   display: flex;
+   padding: 2px 15px ;
+   justify-content: space-between;
+
+       
+}
+#main #nav #nav1{
+    width: 20%;
+    height: 100%;
+   /* background-image: url('./image-removebg-preview\ \(36\).png');
+   background-size: cover;
+   background-position: center;    */
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   margin-left: 30px;
+}
+#main #nav #nav1 #img{
+    width: 25%;
+    height: 100%;
+    object-fit: cover;
+}
+#main #nav #nav1 #mark{
+ display: flex;
+ justify-content: flex-start;
+ align-items: center;
+ width: 75%;
+ height: 100%;
+ margin-left: 5px;
+
+}
+#main #nav #nav1 #mark h2{
+    font-family: gilroy;
+    font-size: 25px;
+    color: black;
+
+}
+#main #nav #nav2{
+    width: 50%;
+    height: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#main #nav #nav2 h3{
+    font-family: gilroy;
+    font-size: 15px;
+    color: grey;
+    
+}
+#main #nav #nav2 #circle{
+    width: 16%;
+    height: 50%;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#main #nav #nav2 #circle h3{
+    font-family: gilroy;
+    font-size: 15px;
+    color: red;
+}
+#main #box{
+    width: 30%;
+    height: 45%;
+   margin-top: 50px;
+   margin-left: 60px;  
+   padding: 1px 6px ; 
+}
+#main #box #b1{
+    width: 100%;
+    height: 50%;
+    padding: 2px 4px;
+    
+
+}
+#main #box #b1 h1:nth-child(1){
+    font-family:  gilroy light;
+    font-size: 55px;
+    margin-left: 12px;
+  
+
+}
+#main #box #b1 h1:nth-child(2){
+    font-family: gilroy light;
+    font-size: 55px;
+    margin-left: 12px;
+}
+#main #box #b2{
+    width: 100%;
+    height: 20%;
+    padding: 2px 4px;
+   border-radius: 10px;
+   display: flex;
+   padding: 5px 25px ;
+   background-image: linear-gradient(to bottom, #83dbf3, #b1def8, #c4e0ff, #e4eafb, #f7f7f7);
+   margin-top: 20px;
+   box-shadow: 1px 1px rgb(173, 172, 172);
+   opacity: 0.65;
+}
+#main #box #b2 #b21{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 20%;
+   height: 100%;
+   border-radius: 10px;
+   overflow: hidden; 
+   box-shadow: 2px 2px rgb(190, 189, 189);
+}
+#main #box #b2 #b21 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#main #box #b2 #b22{
+    width: 60%;
+    height: 100%;
+    overflow: hidden;
+    margin-left: 10px;
+    padding: 10px 5px;
+    line-height: 15px; 
+ }
+ #main #box #b2 #b22 h3{
+     font-family: gilroy;
+     font-size: 13px;
+     color: black;
+
+ }
+ #main #box #b2 #b22 p{
+   font-family: gilroy;
+   font-size: 10px;
+   width: 100%;
+ } 
+ #main #photo{
+     width: 30%;
+     height: 60%;
+     position: absolute;
+     top: 15%;
+     right: 10%;
+     /* background-color: black; */
+ }
+ #main #photo img{
+     width: 120%;
+     height: 120%;
+     object-fit: cover;
+ }
+
+#cir1{
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    width: 1%;
+    height: 2.125%;
+    border-radius: 50px;
+    background-color: rgb(255, 136, 0);
+    filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+#cir2{
+    position: absolute;
+    top: 18%;
+    left: 90%;
+    width: 1%;
+    height: 2.125%;
+    border-radius: 50px;
+    background-color: rgb(33, 116, 16);
+    filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+
+#cir3{
+    position: absolute;
+    top: 16%;
+    left: 75%;
+    width: 1%;
+    height: 2.125%;
+    border-radius: 50px;
+    background-color: rgb(43, 21, 126);
+    filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+
+#cir4{
+    position: absolute;
+    top: 60%;
+    left: 55%;
+    width: 1%;
+    height: 2.125%;
+    border-radius: 50px;
+    background-color: rgb(30, 162, 172);
+    filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+#cir5{
+    position: absolute;
+    top: 94%;
+    left: 75%;
+    width: 1%;
+    height: 2.125%;
+    border-radius: 50px;
+    background-color: rgb(230, 64, 105);
+    filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+#cir6{
+    position: absolute;
+    top: 87%;
+    left: 90%;
+    width: 1%;
+    height: 2.125%;
+    border-radius: 50px;
+    background-color: rgb(194, 197, 21);
+    filter: blur(2px);
+  -webkit-filter: blur(2px);
+}
+
+#bcir1{
+    position: absolute;
+    top: 22%;
+    left: 52%;
+    width: 8%;
+    height: 16%;
+    border-radius: 100px;
+    background-image: linear-gradient(to bottom, #f8fbff, #eff5f7c7, #e9efeee1, #e4e8e5c9, #e0e1dd5b);
+    filter: blur(5px);
+  -webkit-filter: blur(5px);
+}
+
+#bcir2{
+    position: absolute;
+    top: 75%;
+    left: 45%;
+    width: 5%;
+    height: 10%;
+    border-radius: 100px;
+    background-image: linear-gradient(to bottom, #ffffff, #e5f6ff, #ccf2ff, #b0eefb, #b0fbfd);
+    filter: blur(5px);
+  -webkit-filter: blur(5px);
+}
+
+#bcir3{
+    position: absolute;
+    top: 40%;
+    left: 90%;
+    width: 7%;
+    height: 14%;
+    border-radius: 100px;
+    background-image: linear-gradient(to bottom, #f4ecee, #f5dce3, #f6cdd8, #f6bdcc, #f5adc1);
+    filter: blur(3px);
+  -webkit-filter: blur(3px);
+}
+#bcir4{
+    position: absolute;
+    top: -7%;
+    left: 30%;
+    width: 7%;
+    height: 14%;
+    border-radius: 100px;
+    background-image: linear-gradient(to bottom, #e4cceb, #d698e6, #d581eb, #df94f1, #cf85e2);
+    filter: blur(5px);
+  -webkit-filter: blur(5px);
+}
+
+#bcir5{
+    position: absolute;
+    top: 11%;
+    left: 1px;
+    width: 5%;
+    height: 10%;
+    border-radius: 100px;
+    background-image: linear-gradient(to bottom, #95ddf1, #b5dcf1, #dbe9f9, #eceff8, #f7f7f7);
+    filter: blur(4px);
+  -webkit-filter: blur(4px);
+}
+#main #bar{
+  width: 100%;
+  height: 5vh;
+  /* background-color: black; */
+  position: absolute;
+  bottom: 5%;
+  right: 0%;
+  padding: 0px 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#main #bar #bar1{
+  width: 10%;
+  height: inherit;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+#main #bar #bar1 h3{
+  font-family: gilroy ;
+  font-size: 15px;
+  color: grey;
+
+}
+#main #bar #bar2{
+  width: 10%;
+  height: inherit;
+  /* background-color: blue; */
+  padding: 3px 3px ;
+
+}
+#main #bar #bar2 .v1{
+  font-family: gilroy light;
+  font-size: 10px;
+}
+#main #bar #bar2 .v2{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items:center;
+  color: grey;
+
+}
+#main #bar #bar2 .v2 i:nth-child(2){
+  margin-left: 10px;
+}
+#main #bar #bar2 .v2 i:nth-child(3){
+  margin-left: 12px;
+}
+
+
+
+@media(max-width:550px){
+  #main{
+    padding: 0;
+    width: 135%;
+    height: 135%;
+  }
+  #main #nav{
+    padding: 0;
+  }
+  #main #nav #nav1 #img{
+    height: 30%;
+  }
+  #main #nav #nav1 #mark h2{
+  font-size: 16px;
+  }
+  #bcir4{
+  -webkit-filter: blur(15px);
+  }
+  #main #nav #nav2 {
+    width: 56%;
+  }
+  #main #nav #nav2 h3{
+    font-size: 10px;
+  }
+  #main #nav #nav2 #circle h3 {
+    font-size: 4px;
+  }
+  #main #nav #nav2 #circle {
+    border-radius: 5px;
+  }
+  #main #box #b1 h1:nth-child(1){
+    font-size: 12px;
+  }
+  #main #box #b1 h1:nth-child(2) {
+    font-size: 40px;
+  }
+  #main #box #b1{
+    padding: none;
+    height: 30%;
+  }
+  #main #box #b2{
+    width: 277%;
+  }
+  #main #photo {
+    top: 17%;
+    right: -8%;
+    width: 132%;
+    opacity: 0.1;
+  }
+  #main #bar{
+    height: 7vh;
+  }
+  #main #bar #bar1{
+    width: 35%;
+  }
+  #main #bar #bar2 .v1{
+    display: none;
+  }
+  #bcir1{
+    -webkit-filter: blur(20px)
+  }
+  #main #bar #bar2{
+    width: 20%;
+    padding: 14px 3px;
+  }
+}
